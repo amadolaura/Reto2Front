@@ -37,6 +37,7 @@ function registrar() {
     $.ajax({
         url: 'https://g1a8cffe5c1de69-db202109231547.adb.sa-santiago-1.oraclecloudapps.com/ords/admin/client/client',
         data: {
+            id: $("#id").val(),
             name: $("#name").val(),
             email: $("#email").val(),
             age: $("#age").val()

@@ -33,6 +33,7 @@ function registrar() {
     $.ajax({
         url: 'https://g1a8cffe5c1de69-db202109231547.adb.sa-santiago-1.oraclecloudapps.com/ords/admin/message/message',
         data: {
+            id: $("#id").val(),
             messagetext: $("#messagetext").val()
         },
         type: 'POST',
